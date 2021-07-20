@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('checkout&build') {
             steps {
-                git 'https://github.com/jenkinsdemorepo/mavenproject'
+                git 'https://github.com/hemanthm4u/multibranch'
                 sh "mvn package"
             }
         }
